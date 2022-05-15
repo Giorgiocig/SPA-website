@@ -1,0 +1,11 @@
+.heroImg {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../images/heroImgResize.jpg");
+  background-size: cover;
+  height: 90vh;
+}
+
+.heroBox {
+  padding-top: 0.75rem;
+}

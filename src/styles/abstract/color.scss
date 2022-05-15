@@ -1,0 +1,21 @@
+$main: #fcf8e8;
+$secondary: #ecdfc8;
+$tertiary: #ecb390;
+$accent: #df7861;
+
+$text-main: $secondary;
+$text-accent: $accent;
+$text-secondary: $main;
+
+.color-accent {
+  color: $accent;
+}
+.color-main {
+  color: $main;
+}
+.color-tertiary {
+  color: $tertiary;
+}
+.color-secondary {
+  color: $accent;
+}

@@ -1,0 +1,37 @@
+.frame {
+  height: 18rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+  justify-items: center;
+}
+
+.grid-a {
+  grid-area: a;
+}
+.grid-b {
+  grid-area: b;
+}
+.grid-c {
+  grid-area: c;
+}
+.grid-d {
+  grid-area: d;
+}
+
+.margin {
+  margin-top: 0.5rem;
+}
+
+.resp-contactContainer {
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}

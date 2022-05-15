@@ -1,0 +1,29 @@
+/*.image2 {
+  width: 100%;
+  height: 70%;
+}*/
+
+.margin-right {
+  margin-right: 0.25rem;
+}
+
+.margin-left {
+  margin-left: 0.25rem;
+}
+
+.image1 {
+  background-image: url("../../images/messaggiMod.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+
+.image2 {
+  background-image: url("../../images/prodottiMod.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  flex: 1;
+}

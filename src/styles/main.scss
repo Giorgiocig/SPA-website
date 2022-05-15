@@ -1,0 +1,90 @@
+/*SPACING SYSTEM REM*/
+/*0.125 / 0.25 / 0.5 / 0.75 / 1 / 1.5 / 2 / 3 / 4 / 5 / 6 / 8*/
+@use "../styles/abstract/color.scss" as *;
+@use "../styles/abstract/typo.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  display: inline-block;
+}
+
+/*FLEX PROPS*/
+.row {
+  display: flex;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content--sb {
+  justify-content: space-between;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.align-items--center {
+  align-items: center;
+}
+
+//flex prop
+.col50 {
+  flex: 1;
+}
+
+/*image*/
+img {
+  width: 100%;
+}
+
+/*text*/
+.text-center {
+  text-align: center;
+}
+
+/*container*/
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-hero {
+  position: relative;
+  top: 75%;
+  width: 80%;
+}
+
+.container-hero-btn {
+  width: 80%;
+}
+
+/*positioning*/
+.position-abs {
+  position: absolute;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.images-text {
+  top: 0%;
+  left: 50%;
+}

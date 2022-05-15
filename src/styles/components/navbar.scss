@@ -1,0 +1,33 @@
+@use "../abstract/color.scss" as *;
+
+nav {
+  background-color: $secondary;
+  color: black;
+  padding: 0.25rem 0;
+  @media (max-width: 725px) {
+    height: 100vh;
+    overflow: hidden;
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+    }
+    li {
+      flex: 1 1 auto;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      display: flex;
+    }
+    a {
+      text-decoration: none;
+      flex-basis: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.unordered__list {
+  width: 85%;
+}
