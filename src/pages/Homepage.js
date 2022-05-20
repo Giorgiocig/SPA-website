@@ -15,8 +15,9 @@ export default function Homepage() {
       <Hero />
       <ListIcons />
       <Images />
-      <MessageText />
+      <MessageText text={"I nostri massaggi più apprezzati"} />
       <Message />
+      <MessageText text={"dove siamo e come conttatarci"} />
       <Contacts />
       <Footer />
     </div>

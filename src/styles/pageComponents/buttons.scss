@@ -2,6 +2,22 @@
 
 .btn {
   color: black;
+  background-color: $main;
+  padding: 0.75em 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  display: inline-block;
+
+  &:hover {
+    background-color: $accent;
+    transform: translateY(-3px);
+  }
+}
+
+.btn-message {
+  color: black;
   background-color: $accent;
   padding: 0.75em 2em;
   cursor: pointer;
@@ -9,13 +25,10 @@
   text-decoration: none;
   transition: 250ms ease-in-out;
   display: inline-block;
+
   &:hover {
     background-color: $main;
     transform: translateY(-3px);
-  }
-  @media (max-width: 320px) {
-    display: block;
-    padding: 0.5em;
   }
 }
 

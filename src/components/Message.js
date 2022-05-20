@@ -6,7 +6,7 @@ import "../styles/components/massage.scss"
 export default function Message() {
   return (
     <section className="container">
-      <div className="row">
+      <div className="row resp-img-col">
         <div className="image__massage__left col50"></div>
         <div className="col50 row justify-content--center align-items--center">
           <div className="col ">
@@ -22,7 +22,7 @@ export default function Message() {
                 <p>Lorem ipsum</p>
               </li>
               <li>
-                <a className="btn" href="#">
+                <a className="btn-message" href="#">
                   Acquista
                 </a>
               </li>
@@ -31,7 +31,7 @@ export default function Message() {
         </div>
       </div>
 
-      <div className="row-reverse">
+      <div className="row-reverse resp-img-col">
         <div className="image__massage__right col50"></div>
         <div className="col50 row justify-content--center align-items--center">
           <div className="col ">
@@ -47,7 +47,7 @@ export default function Message() {
                 <p>Lorem ipsum</p>
               </li>
               <li>
-                <a className="btn" href="#">
+                <a className="btn-message" href="#">
                   Acquista
                 </a>
               </li>

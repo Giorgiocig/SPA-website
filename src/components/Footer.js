@@ -10,8 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Footer() {
   return (
-    <footer className="container row justify-content--sb padding-footer">
-      <div>
+    <footer className="container row justify-content--sb padding-footer resp-col">
+      <div className="col align-items--center">
         <h3>seguici sui social</h3>
         <ListIconsFooter />
       </div>

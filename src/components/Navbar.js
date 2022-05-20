@@ -1,9 +1,15 @@
 import React from "react"
 import "../styles/components/navbar.scss"
 
-export default function Navbar() {
+export default function Navbar({ toggle }) {
   return (
-    <nav className="navbar row justify-content--center">
+    <nav
+      className={
+        toggle
+          ? "navbar row justify-content--center is-open"
+          : "navbar row justify-content--center"
+      }
+    >
       <ul className="row justify-content--sb unordered__list">
         <li>
           <a>Home</a>

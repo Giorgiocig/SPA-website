@@ -1,5 +1,8 @@
 /*SPACING SYSTEM REM*/
 /*0.125 / 0.25 / 0.5 / 0.75 / 1 / 1.5 / 2 / 3 / 4 / 5 / 6 / 8*/
+
+//responsive
+//480px small viewport
 @use "../styles/abstract/color.scss" as *;
 @use "../styles/abstract/typo.scss" as *;
 
@@ -63,16 +66,31 @@ img {
 .container {
   width: 85%;
   margin: 0 auto;
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: none;
+  }
 }
 
 .container-hero {
   position: relative;
-  top: 75%;
-  width: 80%;
+  top: 60%;
+  width: 75%;
+  @media (max-width: 928px) {
+    top: 70%;
+  }
+  @media (max-width: 700px) {
+    top: 60%;
+  }
+  @media (max-width: 490px) {
+    top: 65%;
+  }
 }
 
 .container-hero-btn {
-  width: 80%;
+  max-width: 80%;
+  padding-top: 0.5rem;
+  margin: 0 auto;
 }
 
 /*positioning*/
@@ -87,4 +105,27 @@ img {
 .images-text {
   top: 0%;
   left: 50%;
+}
+
+//responsive
+.resp-img-col {
+  @media (max-width: 700px) {
+    height: 40vh;
+  }
+  @media (max-width: 480px) {
+    height: 50vh;
+    flex-direction: column;
+  }
+}
+
+.resp-col {
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+
+.resp-row {
+  @media (max-width: 480px) {
+    flex-direction: row;
+  }
 }

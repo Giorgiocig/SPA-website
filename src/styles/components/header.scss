@@ -15,11 +15,11 @@
   display: block;
   position: absolute;
   padding: 1em;
-  top: 1.5rem;
-  right: 6rem;
+  top: 5%;
+  right: 15%;
   cursor: pointer;
   z-index: 999999;
-  @media (min-width: 725px) {
+  @media (min-width: 820px) {
     display: none;
   }
 }
@@ -49,4 +49,10 @@
   &::after {
     transform: rotate(-90deg) translateX(3px);
   }
+
+  &::before {
+    opacity: 0;
+  }
 }
+
+//SEE THE WORKFLOW FROM KEVIN HAMBURGER, SOME CSS CODE IS MISSING

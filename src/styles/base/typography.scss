@@ -2,7 +2,7 @@
 @use "../abstract/color.scss" as *;
 
 h1 {
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
   line-height: 1.15;
   text-transform: uppercase;
   font-family: $font-main;
@@ -24,4 +24,8 @@ label {
   color: white;
   top: 15%;
   left: 43%;
+}
+
+.btn-text {
+  font-size: clamp(0.8rem, 1.8vw, 1.5rem);
 }
